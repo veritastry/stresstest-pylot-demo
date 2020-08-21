@@ -1,0 +1,24 @@
+
+<testcases>
+    <!-- SAMPLE TEST CASE -->
+    
+    <!-- SAMPLE TEST CASE -->
+    <case>
+        <url>http://127.0.0.1:9089/media/fuzzysearch</url>
+        <method>POST</method>
+        <body><![CDATA[
+           {
+    "actor": [{
+        "slot_type": "NORMAL",
+        "text": "刘华"
+    }],
+    "movie": [{
+        "slot_type": "NORMAL",
+        "text": "无间道"
+    }]
+} 
+            ]]> 
+        </body>
+        <add_header>Content-type: application/json;charset=utf-8</add_header>
+    </case>
+</testcases>
